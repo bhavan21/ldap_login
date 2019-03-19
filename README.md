@@ -24,7 +24,7 @@ Commands:
 
 		Status: Logged out
 
-- `ldap_login login` authenticates the LDAP user and logs him/her in
+- `ldap_login login` authenticates the LDAP user and logins him/her
 
 - `ldap_login logout` logouts the user
 
