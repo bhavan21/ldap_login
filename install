@@ -1,0 +1,19 @@
+#!/bin/sh
+sudo printf ""
+echo "Installing..."
+sudo cp ldap_login.sh /usr/local/bin/ldap_login
+if [ "$?" -ne "1" ]; then
+	echo "Succesfully installed"
+	echo "========================"
+	echo '''Usage: ldap_login command
+
+	Commands:
+		status : check login status
+
+		login : login into internet.iitb.ac.in
+
+		logout : logout into internet.iitb.ac.in
+	'''
+else
+	echo "Installation failed. Make sure you have sudo permissions while installating."
+fi
