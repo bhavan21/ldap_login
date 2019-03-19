@@ -17,7 +17,7 @@ Commands:
 
 	Status: Logged in
 
-	LDAP ID     IP ADDRESS    LOCATION   LOGIN TIME
+	LDAP ID     IP ADDRESS    LOCATION   LOGIN TIME<br/>
 	150050091   10.9.160.13   Hostel-9   19-Mar-2019 22:06:23
 
 	`ldap_login status` outputs the following if logged out:
