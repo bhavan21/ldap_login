@@ -32,3 +32,6 @@ Commands:
 Go to 'ldap_login' directory and execute ldap_login.sh
 - `cd ldap_login`
 - `./install`
+
+## Requirements
+- curl (For installation in ubuntu - `sudo apt-get install curl`)
