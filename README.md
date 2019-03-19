@@ -15,14 +15,14 @@ Commands:
 
 - `ldap_login status` outputs the following if logged in:
 
-	Status: Logged in
+		Status: Logged in
 
-	LDAP ID     IP ADDRESS    LOCATION   LOGIN TIME<br/>
-	150050091   10.9.160.13   Hostel-9   19-Mar-2019 22:06:23
+		LDAP ID     IP ADDRESS    LOCATION   LOGIN TIME
+		150050091   10.9.160.13   Hostel-9   19-Mar-2019 22:06:23
 
 	`ldap_login status` outputs the following if logged out:
 
-	Status: Logged out
+		Status: Logged out
 
 - ldap_login login` authenticates the LDAP user and logs him/her in
 
