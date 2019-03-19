@@ -1,7 +1,7 @@
 # ldap-login (An inside IIT Bombay application)
 Login into internet.iitb.ac.in seamlessly in Linux servers which doesn't have a desktop interface to use browsers.
 
-## Usage: ldap_login command
+## Usage: `ldap_login command`
 
 Commands:
 
