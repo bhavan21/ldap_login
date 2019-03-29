@@ -76,7 +76,7 @@ elif [ "$1" = "logout" ]; then
 	if [ "$logged_in" -eq "1" ]
 		then
 			# get current ip address from list of all ips loggedin by the user
-			ip=`echo $page|grep -o '"'[.0-9]*'" checked="checked"' | grep -o [.0-9]*`
+			ip=`echo $page|grep -o '"'[.0-9]*'" checked="checked"' | grep -o '[.0-9]*'`
 			logout $ip
 		else
 			echo "Already logged out"
